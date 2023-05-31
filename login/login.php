@@ -40,7 +40,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
             	$_SESSION['user_name'] = $row['user_name'];
             	$_SESSION['name'] = $row['name'];
             	$_SESSION['id'] = $row['id'];
-            	header("Location: ../asosiy/index.php");
+            	header("Location: ../webd/index.php");
 		        exit();
             }else{
 				header("Location: index.php?error=Incorect User name or password");

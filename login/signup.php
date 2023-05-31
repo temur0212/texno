@@ -3,6 +3,11 @@
 <head>
 	<title>SIGN UP</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+     <style>
+          body{
+               background-color: antiquewhite;
+          }
+     </style>
 </head>
 <body>
      <form action="signup-check.php" method="post">

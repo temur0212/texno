@@ -21,7 +21,7 @@ $sql = "SELECT * FROM images ORDER BY id DESC LIMIT 1 ";
 $result = $conn->query($sql);
 $row = $result->fetch_assoc();
  
-       echo "<h1>".$row['title']."</h1>";
+      echo "<h1>".$row['title']."</h1>";
     echo "<img src='data:" . $row['mime_type'] . ";base64," . base64_encode($row['image_data']) . "' width=800 height=500>";?>
 
      <p><?php echo $row['malumot']?></p>
