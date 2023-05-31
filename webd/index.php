@@ -255,11 +255,13 @@ include "connect.php";
         <div class="left"></div>
         <div class="right">
           <h2>Aloqa uchun</h2>
+          <form action="xabar.php" method="post">
           <input type="text" class="field" name="ism" placeholder="Ismingiz...">
           <input type="email" class="field" name="email" placeholder="Email...">
           <input type="text" class="field" name="tele" placeholder="Telefon...">
-          <input placeholder="Xabar..." class="field"></input>
-          <button class="btn__y">Yuborish</button>
+          <input type="Xabar..." class="field" name="xabar" placeholder="Malumot... "></input>
+          <input type="submit" name="submit" value="yuborish">
+          </form>
         </div>
       </div>
     </div>
